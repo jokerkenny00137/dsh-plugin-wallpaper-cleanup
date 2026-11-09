@@ -1,7 +1,7 @@
 {
   "name": "dsh-plugin-wallpaper-cleanup",
-  "version": "0.2.0",
-  "description": "Wallpaper Engine 工坊清理：对照“我的订阅壁纸”截图，把不属于你的壁纸文件夹移入回收站。带图形界面（设置页 + 悬浮模态框）与 agent 工具。",
+  "version": "0.3.0",
+  "description": "Wallpaper Engine 工坊清理：对照“我的订阅壁纸”截图（支持多页），把不属于你的壁纸文件夹移入回收站。带设置页、悬浮模态框与 agent 工具。",
   "type": "module",
   "main": "lib/index.js",
   "icon": "./assets/icon-180.png",
