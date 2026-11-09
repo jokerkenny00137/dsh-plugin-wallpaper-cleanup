@@ -1,0 +1,10 @@
+# dsh-plugin-wallpaper-cleanup bundle patch.
+#
+# One host row: registers the two agent tools
+#   wallpaper_cleanup_scan   – build a keep/remove plan from a subscription screenshot
+#   wallpaper_cleanup_apply  – move the planned folders to the Recycle Bin
+# No client half: the plugin is driven entirely through tool calls.
+
+- insert:
+    - id: wallpaper-cleanup
+      name: 'dsh-plugin-wallpaper-cleanup'

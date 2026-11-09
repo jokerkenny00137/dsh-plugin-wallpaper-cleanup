@@ -1,0 +1,52 @@
+{
+  "name": "dsh-plugin-wallpaper-cleanup",
+  "version": "0.2.0",
+  "description": "Wallpaper Engine 工坊清理：对照“我的订阅壁纸”截图，把不属于你的壁纸文件夹移入回收站。带图形界面（设置页 + 悬浮模态框）与 agent 工具。",
+  "type": "module",
+  "main": "lib/index.js",
+  "icon": "./assets/icon-180.png",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/",
+    "assets/",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "wallpaper-engine",
+    "cleanup"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jokerkenny00137/dsh-plugin-wallpaper-cleanup.git"
+  },
+  "homepage": "https://github.com/jokerkenny00137/dsh-plugin-wallpaper-cleanup#readme",
+  "bugs": {
+    "url": "https://github.com/jokerkenny00137/dsh-plugin-wallpaper-cleanup/issues"
+  },
+  "author": "jokerkenny00137",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.4",
+    "@deepseek-ai/dsh-tools": ">=0.2.2-rc.1 <0.3.0-0"
+  },
+  "license": "MIT"
+}
