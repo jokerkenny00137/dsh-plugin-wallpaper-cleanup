@@ -32,7 +32,7 @@ Wallpaper Engine 工坊清理插件。你选择 **Steam 工坊内容文件夹** 
 从 GitHub 安装（推荐）：
 
 ```sh
-dsh plugin add jokerkenny00137/dsh-plugin-wallpaper-cleanup
+dsh plugin add github:jokerkenny00137/dsh-plugin-wallpaper-cleanup
 ```
 
 也可以先克隆到本地，再用本地 bundle 安装：
